@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(154, 142, 142);
+}
+
+.myHeader{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: grey;
+    z-index: 100%;
+}
+
+.profile h1{
+    text-align: center;
+    color: greenyellow;
+}
+
+.myHeader img{
+    height: 40%;
+    width: 100%;
+}
+
+.profileLogo{
+    height: 100px;
+    text-align: center;
+    margin: 5px;
+    float: left;
+}
+
+.myText{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    size: 10px;
+}
+
+.myNav{
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    size: 5px;
+    height: 0px;
+    font-weight: bold;
+    margin-top: -50px;
+    padding: 0px;
+}
+
+.myNav a{
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 2px;
+    margin: -50;
+    padding-top: 1%;
+}
+
+.caption-heading{
+    padding: 0px;
+    margin-top: 20px;
+    height: 15px;
+    text-align: center;
+    font-size: 15px;
+    border: solid 4px rgb(106, 47, 98);
+    font-weight: bold;
+}
+
+.imageContent{
+    background-image: url(Pictures/nishantProfile1.jpg);
+    top: 50px;
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.profiles{
+    width: 100%;
+    border: solid 4px purple;
+    text-align: center;
+    height: 300px;
+}
+
+.profile h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10%;
+}
+
+.profiles img{
+    height: 20px;
+    width: 30px;
+}
+
+p{
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: rgb(20, 193, 220);
+    text-align: center;
+}
+
+h1{
+    size: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+h2{
+    font-size: 15px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orange;
+    font-weight: bolder;
+}
+
+th{
+    background-color: burlywood;
+    height: 50px;
+    font-size: 22px;
+    color: black;
+}
+
+td{
+    background-color: antiquewhite;
+    height: 30px;
+    font-size: 15px;
+    color: brown;
+    display: inline;
+}
+
+td a{
+    background-color: antiquewhite;
+    height: 30px;
+    font-size: 10px;
+    color: green;
+}
+
+
+
+.tr-ids:hover{
+    background-color: rgb(0, 200, 255);
+}
+
+.footer{
+    background-color: dimgray;
+    height: 40px;
+    top: 5px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
+
+.footer-text{
+    color: black;
+    font-size: 5px;
+}
